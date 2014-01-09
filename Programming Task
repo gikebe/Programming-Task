@@ -1,0 +1,13 @@
+$GGA,134567,4908.038,N,03431.000,E,1,07,0.9,545.4,M,46.9,M,,*47
+
+Where:
+     GGA          Global Positioning System Fix Data
+     134567       Fix taken at 12:35:19 UTC
+     4908.038,N   Latitude 49 deg 08.038' N
+     03431.000,E  Longitude 34 deg 31.000' E
+     1            Fix quality: 1 = GPS fix (SPS)
+                               
+     07           Number of satellites being tracked
+     0.9          Horizontal dilution of position
+     545.4,M      Altitude, Meters, above mean sea level
+     46.9,M       Height of geoid 

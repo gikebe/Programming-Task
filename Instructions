@@ -1,0 +1,14 @@
+1.	Select a file in the hierarchy on the left side of the screen by clicking on it. That level should now be highlighted. 
+2.	Select the first column that the GPS data will be received. In this example we are going to use a separate column for the latitude and for the longitude. Select the latitude column by clicking on it. The column will now be highlighted. 
+3.	Click on the data entry tab on the right side of the screen to bring it forward. 
+4.	Click on the down arrow under user data entry type and choose serial port. 
+5.	Set the qualifier type to word. The qualifier string is $GPGGA. 
+6.	Use an offset from beginning of 0. 
+7.	Set the parsing method to parse NMEA-type. 
+8.	Use a comma for a parsing delimiter.
+9.	Select the multi column store radio button because we want to store the longitude when we store the latitude. 
+10.	In the multi column store group, select the latitude column in the store in column drop down. The latitude is parse element number 2 and element number 3 is the north/south reference. Use these as the element and cat element choices. Press the add button when finished. 
+11.	In the multi column store group, select the longitude column in the store in column drop down. The longitude is parse element number 4 and element number 5 is the east/west reference. Use these as the element and cat element choices. Press the add button when finished. 
+12.	When completed, press the ok button. This will store the latitude and longitude in the appropriate columns from the same reading when the enter key is pressed. 
+13.	Click on compile/save. 
+14.	Click on test.  
